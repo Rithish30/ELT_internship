@@ -1,1 +1,38 @@
-
+import json
+records={1111:{"name":"Organic Cotton Crew-Neck T-shirt","brand":"tommy hilfiger","age":"adult","gender":"men","category":"topwear","variety":"t-shirt","material":"cotton","color":"blue","size":"s","price":1999,"quantity":5,"discount":20},1112:{"name":"graphic-print-crew-neck-t-shirt","brand":"wolfpack","age":"adult","gender":"men","category":
+"topwear","variety":"t-shirt","material":"cotton","color":"grey","size":"m","price":1999,"quantity":5,"discount":20},1113:{"name":"Brand Embroidered Organic Cotton Sweatshirt","brand":"tommy hilfiger","age":"adult","gender":"men","category":
+"topwear","variety":"Sweatshirt","material":"cotton","color":"blue","size":"l","price":1999,"quantity":5,"discount":20},1114:{"name":"Polo T-shirt with Contrast Tipping","brand":"tommy hilfiger","age":"adult","gender":"men","category":
+"topwear","variety":"t-shirt","material":"cotton","color":"black","size":"xl","price":1999,"quantity":5,"discount":20},1115:{"name":"Logo Print Hoodie with Kangaroo Pocket","brand":"tommy hilfiger","age":"adult","gender":"men","category":
+"topwear","variety":"Hoodie","material":"cotton","color":"blue","size":"xxl","price":1999,"quantity":5,"discount":20},1116:{"name":"Printed Crew-Neck T-shirt","brand":"vanhuesen","age":"adult","gender":"men","category":
+"topwear","variety":"t-shirt","material":"cotton","color":"blue","size":"m","price":1999,"quantity":5,"discount":20},1117:{"name":"Printed Slim Fit Polo T-shirt","brand":"vanhuesen","age":"adult","gender":"men","category":
+"topwear","variety":"t-shirt","material":"cotton","color":"white","size":"l","price":1999,"quantity":5,"discount":20},1118:{"name":"Polo T-shirt with Patch Pocket","brand":"vanhuesen","age":"adult","gender":"men","category":
+"topwear","variety":"t-shirt","material":"cotton","color":"blue","size":"xl","price":1999,"quantity":5,"discount":20},1119:{"name":"Printed Slim Fit Shirt","brand":"vanhuesen","age":"adult","gender":"men","category":
+"topwear","variety":"shirt","material":"cotton","color":"brown","size":"xxl","price":1999,"quantity":5,"discount":20},1120:{"name":"colourblock-round-neck-pullover","brand":"club-york","age":"adult","gender":"men","category":
+"topwear","variety":"pullover","material":"cotton","color":"black","size":"s","price":2399,"quantity":5,"discount":20},1121:{"name":"colourblock-round-neck-pullover","brand":"club-york","age":"adult","gender":"men","category":
+"topwear","variety":"pullover","material":"cotton","color":"black","size":"m","price":2399,"quantity":5,"discount":20},1122:{"name":"heathered-single-breasted-slim-fit-blazer","brand":"Marks & Spencer","age":"adult","gender":"men","category":
+"topwear","variety":"blazer","material":"polyester","color":"black","size":"m","price":6999,"quantity":5,"discount":20},1123:{"name":"mandarin-collar-jacket-with-insert-pockets","brand":"manyavar","age":"adult","gender":"men","category":
+"topwear","variety":"jacket","material":"silk","color":"beige","size":"m","price":4999,"quantity":5,"discount":20},1124:{"name":"slim-fit-shirt-with-cutaway-collar","brand":"french-connection","age":"adult","gender":"men","category":
+"topwear","variety":"shirt","material":"cotton","color":"green","size":"m","price":2499,"quantity":5,"discount":20},1125:{"name":"Panelled Track Pants with Elasticated Drawstring Waist","brand":"PERFORMAX","age":"adult","gender":"men","category":
+"bottomwear","variety":"trackpant","material":"polyester","color":"black","size":"m","price":999,"quantity":5,"discount":20},1125:{"name":"Heathered Track Pants with Contrast Taping","brand":"TEAMSPIRIT","age":"adult","gender":"men","category":
+"bottomwear","variety":"trackpant","material":"cotton","color":"black","size":"m","price":999,"quantity":5,"discount":20},1126:{"name":"Camouflage Print Slim Fit Jogger Pants","brand":"IVOC","age":"adult","gender":"men","category":
+"bottomwear","variety":"joggers","material":"cotton","color":"green","size":"m","price":1299,"quantity":5,"discount":20},1127:{"name":"Mid-Rise QuickDry Shorts with Insert Pockets","brand":"PERFORMAX","age":"adult","gender":"men","category":
+"bottomwear","variety":"Shorts","material":"cotton","color":"blue","size":"m","price":599,"quantity":5,"discount":20},1128:{"name":"Slim Fit Flat-Front Chinos","brand":"NETPLAY","age":"adult","gender":"men","category":
+"bottomwear","variety":"Chinos","material":"cotton","color":"khaku","size":"s","price":1999,"quantity":5,"discount":20},1129:{"name":"Washed Slim Fit Jeans with Whiskers","brand":"LEE COOPER","age":"adult","gender":"men","category":
+"bottomwear","variety":"Jeans","material":"cotton","color":"indigo","size":"s","price":1999,"quantity":5,"discount":20},1130:{"name":"Bold Extreme IDP Low-Top Lace-Up Casual Shoes","brand":"puma","age":"adult","gender":"men","category":
+"footwear","variety":"Shoes","material":"Rubber sole","color":"black","size":"9","price":2999,"quantity":5,"discount":20},1131:{"name":"LiteRide Clogs with Slingback","brand":"crocs","age":"adult","gender":"men","category":
+"footwear","variety":"sandals","material":"Croslite","color":"black","size":"9","price":2999,"quantity":5,"discount":20},1132:{"name":"Nike men flip flops & slippers black 9","brand":"puma","age":"adult","gender":"men","category":
+"footwear","variety":"flip flops","material":"Rubber sole","color":"black","size":"9","price":2099,"quantity":5,"discount":20},1133:{"name":"Fluidflow 2.0 Lace-Up Running Shoes","brand":"ADIDAS","age":"adult","gender":"women","category":
+"footwear","variety":"Shoes","material":"Rubber sole","color":"white","size":"5","price":2099,"quantity":5,"discount":20},1134:{"name":"Eva Slides with Branding","brand":"superdry","age":"adult","gender":"women","category":
+"footwear","variety":"flip flops","material":"Rubber sole","color":"white","size":"5","price":2099,"quantity":5,"discount":20},1135:{"name":"Slip-On Outdoor Sandals","brand":"campus","age":"adult","gender":"women","category":
+"footwear","variety":"sandals","material":"Rubber sole","color":"black","size":"5","price":2099,"quantity":5,"discount":20},1136:{"name":"Beaded Foldover Clutch with Chain Sling Strap","brand":"diwah","age":"adult","gender":"women","category":
+"handbags","variety":"Foldover clutch","material":"cotton","color":"black","size":"FS","price":2999,"quantity":5,"discount":20},1137:{"name":"Aztec Embroidered Sling Bag with Chain Strap","brand":"diwah","age":"adult","gender":"women","category":
+"handbags","variety":"Sling","material":"cotton","color":"black","size":"FS","price":2099,"quantity":5,"discount":20},1138:{"name":"Cowl-Neck Pullover with Raglan Sleeves","brand":"CLUB YORK","age":"adult","gender":"women","category":
+"topwear","variety":"sweaters & cardigans","material":"acrylic","color":"green","size":"s","price":999,"quantity":5,"discount":20},1139:{"name":"Floral Print A-line Kurta","brand":"antaran","age":"adult","gender":"women","category":
+"topwear","variety":"kurtas","material":"rayon","color":"green","size":"s","price":999,"quantity":5,"discount":20},1140:{"name":"Textured Thermal Leggings","brand":"diwah","age":"adult","gender":"women","category":
+"innerwear","variety":"Leggings","material":"cotton","color":"black","size":"s","price":599,"quantity":5,"discount":20},1141:{"name":"Graphic Print Crew-Neck T-shirt","brand":"dnmx","age":"kids","gender":"boys","category":
+"topwear","variety":"t-shirts","material":"cotton","color":"red","size":"s","price":399,"quantity":5,"discount":20},1142:{"name":"Tulle Fit & Flare Dress with Sequinned Panel","brand":"antaran","age":"kids","gender":"girls","category":
+"topwear","variety":"frocks","material":"Tulle","color":"blue","size":"s","price":599,"quantity":5,"discount":20}}
+js=json.dumps(records)
+fd=open("records.json","w")
+fd.write(js)
+fd.close
